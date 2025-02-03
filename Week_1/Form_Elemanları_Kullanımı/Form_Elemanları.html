@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Kişisel Bilgi Formu</h1>
+
+    <form>
+        <Label for="name">İsim :</Label>
+        <input type="text" id="name" name="name" required><br>
+
+        <Label for="Surname">Soyisim :</Label>
+        <input type="text" id="Surname" name="Surname" required><br>
+
+        <Label for="E-mail">E-mail :</Label>
+        <input type="email" id="E-mail" name="E-mail" required><br>
+
+        <p>Cinsiyet:</p>
+        <input type="radio" id="Male" name="Gender" value="Male" required> 
+        <label for="Male">Erkek</label>
+
+        <input type="radio" id="Female" name="Gender" value="Female" required>
+        <label for="Female">Kadın</label><br><br>
+
+        <label for="Password">Parola</label>
+        <input type="password" id="Password" name="Password" minlength="8" required><br><br>
+
+       <label for="Fruit">Favori Meyveniz</label>
+       <select id="Fruit" name="Fruit">
+        <option value="Apple">Elma</option>
+        <option value="strawberry">Çilek</option>
+        <option value="Banana">Muz</option>
+        <option value="Peach">Şeftali</option>
+       </select><br>
+
+       <p>Mesaj Bırak</p>
+       <label for="Message"></label>
+       <textarea name="Message" id="Message" rows="6" cols="50"></textarea><br>
+
+       <input type="submit" value="Gönder">
+
+    </form>
+</body>
+</html>
