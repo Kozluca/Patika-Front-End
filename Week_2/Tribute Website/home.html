@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka Plan Resmi</title>
+    <style>
+      
+              body {
+             text-align: center;
+             background-image: url('images/boramir.jpg'); /* Resmin yolu */
+             background-size: cover; /* Resmin ekranı tamamen kaplamasını sağlar */
+             background-position: center; /* Resmin konumunu ortalar */
+             background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+             margin: 0;
+             height: 100vh; /* Sayfanın tamamını kaplar */
+            }
+            .container .top-side{
+                border: solid 2px black;
+                display: flex;
+                justify-content: flex-end;
+                background-color: grey;
+                width: 90%;
+                height: 200px;
+                margin-left: 9%;
+            }
+          
+            .container .bot-side{
+                border: solid 2px black;
+                display: flex;
+                justify-content: flex-end; /* İçeriği alt tarafa hizalar */
+                 background-color: grey;
+                width: 90%;
+                height: 300px;
+                margin-left: 9%;
+                 margin-top: 4%; /* Ekranın altına yerleştirir */
+                padding: 20px;
+                 box-sizing: border-box;
+                 flex-direction: column;
+                 align-items: center;
+                 
+        }
+             .container .bot-side p{
+                color: aliceblue;
+                margin-left:  100px;
+                font-size: 30px;
+              
+            }
+            h1{
+                color: aliceblue;
+                margin-left: 20px;
+                font-size: 20px;
+                
+            }
+            h2{
+                color: aliceblue;
+                padding-right: 10%;
+                padding-left: 10%;
+            }
+       blockquote{
+             font-style: italic;
+            font-size: 24px;
+            color: #555;
+            padding-left: 20px;
+            margin-top: 20px;
+            max-width: 80%;
+            text-align: center;
+       }
+    </style>
+</head>
+<body>
+   <a href=""></a>
+    <div class="container">
+        <div class="top-side">
+           <a href="home.html" ><h1>HOME</h1></a>
+            <a href="info.html"><h1>INFO</h1></a>
+            <a href="Books.html"> <h1>BOOKS</h1></a>
+
+        </div>
+            <blockquote>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fuga accusamus cumque quis facilis fugit eum illum eligendi totam corporis commodi magnam maxime nobis saepe molestias animi, fugiat iure a.</h2>
+            </blockquote>
+               
+        <div class="bot-side">
+            <h2>CHUCK</h2>
+            <h2>PALANCKUK</h2>
+                              
+        </div>
+        
+    
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<STYle>
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        gap: 20px;
+    }
+    body{
+        background-color: rgb(131, 112, 112);
+        font-family: Arial, sans-serif;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .container .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  /* Resim ve paragrafı dikey olarak yerleştir */
+        width: 70%;
+        height: 30%;
+        border: 2px solid white;
+        background-color: rgb(131, 112, 112);
+
+    }
+    .container .box2{
+        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  /* Resim ve paragrafı dikey olarak yerleştir */
+        width: 70%;
+        height: 30%;
+        background-color: rgb(131, 112, 112);
+        
+        margin-top: -10;
+
+    }
+   
+    .box img{
+        margin-top: 0%;
+        max-width: 100%;  /* Resmin genişliğini box'ın boyutuna göre ayarla */
+        height: auto;  /* Yüksekliği orantılı olarak ayarla */
+        border-radius: 15px;
+        
+    }
+    .container p{
+        padding-right: 20px;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        max-width: 1100px;
+        margin-top: 20px;
+    }
+    footer{
+        align-items: center;
+        background-color: black;
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Yatayda ortalar */
+        align-items: center; /* Dikeyde ortalar */
+        
+    }
+    
+    footer p{
+        color: beige;
+        margin: 0;
+    }
+    nav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+
+        nav a:hover {
+            color: white /* Hover efekti ile renk değişir */
+        }
+</STYle>
+<nav>
+    <a href="home.html">HOME</a>
+    <a href="info.html">INFO</a>
+    <a href="Books.html">BOOKS</a>
+
+</nav>
+<HEADer>
+    <h1>BİYOGRAFİ</h1>
+</HEADer>
+<body>
+    <div class="container">
+        
+        <div class="box">
+            <img src="images/boramir.jpg" alt="yazar">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quod, quam, commodi sapiente, 
+                corrupti debitis error voluptatem nihil quidem eligendi pariatur quis maxime alias dolorum 
+                officia architecto repellendus? Beatae, maxime.corrupti debitis error voluptatem nihil quidem eligendi pariatur quis maxime alias dolorum 
+                officia architecto repellendus? Beatae, maxime                            
+            </p>                 
+        </div>
+        
+        <div class="box2">
+            <h2>Early Career</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quod, quam, commodi sapiente, 
+                corrupti debitis error voluptatem nihil quidem eligendi pariatur quis maxime alias dolorum 
+                officia architecto repellendus? Beatae, maxime.corrupti debitis error voluptatem nihil quidem eligendi pariatur quis maxime alias dolorum 
+                officia architecto repellendus? Beatae, maxime                            
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, esse. Eligendi vel architecto officiis enim, 
+                recusandae non nemo tempore inventore voluptatum provident ad, aperiam dolorum unde quo voluptas officia commodi.
+            </p>
+        </div>
+        <div class="box2">
+            <h2>Fight Club</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at recusandae quae, similique ipsum dolorum velit
+                 aspernatur nulla magni doloribus magnam provident ad autem minus totam suscipit. Nemo, dolor saepe!
+                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae at recusandae quae, similique ipsum dolorum velit
+                 aspernatur nulla magni doloribus magnam provident ad autem minus totam suscipit. Nemo, dolor saepe!
+                </p>
+                <br>
+                <br>
+
+        </div>
+    </div>
+    <footer>
+        <p>
+            Tüm hakları saklıdır
+    
+        </p>
+    </footer>
+    
+</body>
+</html>
