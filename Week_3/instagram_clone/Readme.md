@@ -21,10 +21,10 @@ This project is a simple Instagram clone created using HTML, CSS, and Bootstrap.
 
 ![Resim açıklaması](./images/i1.PNG)
 
-()
+
 ![Resim açıklaması](./images/i2.PNG)
 
-()
+
 
 ## Installation
 
