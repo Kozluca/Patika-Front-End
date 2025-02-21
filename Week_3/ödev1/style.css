@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+ body{
+     background-color: rgb(116, 110, 110); 
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(218, 207, 192);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+h1{
+    text-align:center ;
+}
+
+ .card img{
+    box-shadow: 0 4px 6px rgba(90, 90, 0, 2);
+    border-radius: 20px;
+    width: auto;
+    height: 300px;
+} 
+.card {
+    box-shadow: 0 4px 6px rgba(60, 0, 0, 2); /* Yumuşak bir gölge */
+    border-radius: 20px;
+    
+}
+.card-body{
+    height: 100%; /* Yüksekliği tamamlamak için */
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(90, 0, 90, 2); /* Yumuşak bir gölge */
+}
+
+  .carousel-inner img{
+    height: 400px;
+  }
+  .btn-primary {
+    
+    background-color: rgb(104, 75, 75);
+    border-color: rgb(129, 81, 156);
+}
+
+
