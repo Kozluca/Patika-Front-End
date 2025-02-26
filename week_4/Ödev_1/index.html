@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Landing Page</title>
+     <script src="https://unpkg.com/@tailwindcss/browser@4"></script> 
+     <script
+     src="https://kit.fontawesome.com/d2389ef020.js"
+     crossorigin="anonymous"
+   ></script>
+</head>
+<body class=" bg-gray-50 ">
+   <!-- nav başlangıç -->
+    <div class="flex h-15 rounded bg-gray-200 mx-20 mt-5">
+        <h2 class="flex ml-10 font-bold pt-3">logo</h2>
+       <nav class="flex items-center ml-auto px-5 ">
+           <a href="#about" class="hover:bg-purple-400 hover:rounded-md p-2">About</a>
+           <a href="#contact" class="hover:bg-purple-400 hover:rounded-md  p-2">Contact</a>
+           <a href="#products" class="hover:bg-purple-400 hover:rounded-md  p-2">Products</a>
+           <button   class="bg-purple-700 text-white hidden md:block px-4 py-2 rounded-lg cursor-pointer hover:bg-purple-500 " >
+               Sign Up
+           </button>
+       </nav>
+       </div>
+    <!-- nav bitiş -->
+    <div class="flex gap-4 mt-5 mx-20 h-110">
+        <!-- Sol Taraf Başlangıç -->
+        <div class="w-2/5 rounded bg-gray-200 px-15 justify-items-center">
+        <h2 class="text-sm text-center mt-10 text-indigo-800">
+            Mamba Design System
+        </h2>
+        <h2 class="text-3xl text-center font-bold">
+            Build it With
+        </h2>
+        <h2 class="text-3xl text-center font-bold">
+            Mamba
+        </h2>
+        <p class="text-center">
+            <span class="font-bold">Lorem ipsum, dolor</span> sit amet consectetur adipisicing.
+        </p>
+        <p class="text-center">
+            Lorem ipsum dolor sit.
+        </p>
+        <form
+        action="#"
+        class="flex flex-col gap-5 justify-center w-full mt-7"
+      >
+        <input type="text"placeholder="Your Name"  class="bg-slate-100 p-2 rounded-sm"/>
+
+        <input type="email" placeholder="Email Adress"  class="bg-slate-100 p-2 rounded-sm"/>
+         
+        <button class="bg-purple-700 text-white p-2 font-bold rounded-md cursor-pointer">
+          Join the waitlist
+        </button>
+      </form>
+           
+        </div>
+        <!-- Sol Taraf Bitiş -->
+        <!-- sağ taraf Başlangıç -->
+        <div class="w-3/5 rounded bg-gray-400 ">
+         <img class="w-full h-full" src="https://picsum.photos/id/16/900/500" alt="">
+        </div>
+    </div>
+        <!-- sağ taraf bitiş -->
+         <!-- ikinci sayfa -->
+ 
+        <h2 class="text-center mt-5 text-indigo-800">How its Works</h2>
+        <h2 class="text-4xl text-center">Building With Mamba is Simple</h2>
+                <!-- sol taraf -->
+        <div class="flex gap-4 mt-5 mx-20">
+            <div class="w-1/3 bg-gray-200">
+                <div class="ml-5 mt-3 size-10 rounded-full bg-purple-700 text-white  text-center flex items-center justify-center ">1 </div>
+                <p class="pl-5 pr-10"><span class="font-bold">Lorem,</span> ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quae!</p>
+            </div>
+                <!-- orta kısım -->
+            <div class="w-1/3 bg-gray-200">
+                <div class="ml-5 mt-3 size-10 rounded-full bg-purple-700 text-white  text-center flex items-center justify-center ">2 </div>
+                <p class="pl-5 pr-10"><span class="font-bold">Lorem,</span> ipsum dolor sit, amet consectetur adipisicing elit. Pariatur aperiam sed laborum doloremque consectetur eaque!</p>
+            </div>
+                <!-- sağ kısım -->
+            <div class="w-1/3 bg-gray-200">
+                <div class="ml-5 mt-3 size-10 rounded-full bg-purple-700 text-white  text-center flex items-center justify-center">3 </div>
+                <p class="pl-5 pr-10"><span class="font-bold">Lorem,</span>ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+            <!-- 2. sayfa sol taraf başlangıç-->
+        <div class="flex gap-4 mt-15 mx-20">
+            <div class="w-1/2 bg-gray-200">
+                <img class="w-full h-full" src="https://picsum.photos/id/221/900/500" alt="">
+            </div>
+            <!-- 2. sayfa sol taraf bitiş-->
+             <!-- 2. sayfa sağ taraf başlangıç-->
+            <div class="w-1/2 bg-gray-200 ">
+                 <img class="rounded-full ml-80 mt-10 " src="https://picsum.photos/id/71/80/80" alt="">
+                 <p class="mt-5 text-center font-mono px-15">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, repellendus!
+                 </p>
+                 <p class="text-center font-mono">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing. "
+                 </p>
+
+                 <h2 class="mt-15 text-center text-gray-600">Leroy Jenkis</h2>
+                 <h2 class="text-center text-gray-600">CEO of Company Co.</h2>
+                    <div class="flex mt-5">
+                 <div class="ml-70 mt-3 size-3 rounded-full bg-gray-700 text-center flex items-center justify-center "> </div>
+                 <div class="ml-5 mt-3 size-3 rounded-full bg-gray-400 text-center flex items-center justify-center "> </div>
+                 <div class="ml-5 mt-3 size-3 rounded-full bg-gray-400 text-center flex items-center justify-center "> </div>
+                 <div class="ml-5 mt-3 size-3 rounded-full bg-gray-400 text-center flex items-center justify-center "> </div>
+                </div>
+
+            </div>
+              <!-- 2. sayfa sağ taraf bitiş-->
+            
+        </div>
+
+
+        <!-- 3. kısım -->
+         <div class="mx-20 px-10 bg-gray-200">
+            <h2 class="text-4xl mt-10 pt-5">Create with us</h2>
+            <p class="mt-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta molestiae eius natus unde inventore velit in hic quibusdam repellat qui. Ducimus, iste, labore pariatur quibusdam officia perferendis vitae exercitationem fuga quisquam perspiciatis quis sint. Quo autem ex cupiditate atque blanditiis, optio quasi fuga. Ea pariatur ullam impedit consequuntur sit. Officiis minima, voluptas fuga quasi, perspiciatis aliquam, vero aut natus veniam reiciendis culpa? Ipsam voluptates esse quis magni labore mollitia, laborum sequi iure, earum aut vel pariatur deleniti? Cum, quasi quam!
+            </p>
+         </div>
+
+         <div class="flex mx-20 mt-15">
+            <div class="w-2/3 bg-gray-200">
+                <img class="w-full h-full" src="https://picsum.photos/id/71/1000/400" alt="">
+            </div>
+            <div class="w-1/3 bg-gray-200">
+                <button class="bg-indigo-600 rounded-full px-3 py-1 mt-5 ml-5 text-white">Bussines</button>
+
+                <h2 class="text-2xl mt-5 mx-5">Curating a workplace that</h2>
+                <h2 class="text-2xl mx-5">inspires team movement</h2>
+              
+
+                <h2 class="mt-40 mx-5">November 30,2020</h2>
+                <h2 class="mb-1 mx-5">By Jeroy Lenkis</h2>
+            </div>
+         </div>
+
+         <div class="flex mx-20 gap-4 mt-5 ">
+            <div class="w-1/3 bg-gray-200 rounded px-10 py-5">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, accusantium. At deserunt delectus fugit illum libero minima nulla consequuntur adipisci!
+                </p>
+
+            </div>
+            <div class="w-1/3 bg-gray-200 rounded px-10 py-5">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, accusantium. At deserunt delectus fugit illum libero minima nulla consequuntur adipisci!
+                </p>
+
+            </div>
+            <div class="w-1/3 bg-gray-200 rounded px-10  py-5">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, accusantium. At deserunt delectus fugit illum libero minima nulla consequuntur adipisci!
+                </p>
+
+            </div>
+
+         </div>
+
+         <!-- 4. Kısım -->
+          <div class="mt-10 bg-gray-200 mx-20">
+            <h2 class="text-3xl font-bold text-center">Our Team is Here to help you.</h2>
+            <h2 class="text-center">Meet our crew ></h2>
+            <img class="px-10 w-full pb-20 pt-10 w-full h-full" src="https://picsum.photos/id/91/1200/400" alt="">
+          </div>
+
+       <div class="flex mx-20 bg-gray-200 mt-10 px-10 py-5">
+        <div>
+            <h2>Mamba</h2>
+        </div>
+        <div class="flex ml-auto gap-5">
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+       </div>
+
+</body>
+</html>
