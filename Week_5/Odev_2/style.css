@@ -1,0 +1,34 @@
+ /* Ekranın tamamını kapsayan bir flex konteyneri */
+ body {
+    background:radial-gradient(circle,white,pink);
+    height: 100vh; /* Tam ekran yüksekliği */
+    margin: 0; /* Varsayılan margin'i sıfırla */
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Yatayda butonları ortala */
+    gap: 20px; /* Butonlar arasında 20px boşluk bırak */
+    
+}
+button{
+    background-color: rgb(167, 49, 197);
+    color: wheat;
+    width: 60px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease; /* transition added for transform */
+}
+button:hover{
+    background-color: rgb(235, 94, 235);
+}
+ /* Butona tıklanırken (aktif durumda) */
+ button:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Tıklanırken butona gölge ekle */
+    transform: translateY(5px); /* Tıklama efektinde buton biraz aşağıya kayar */
+    background-color: rgb(235, 94, 235);
+}
