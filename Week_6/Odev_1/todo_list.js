@@ -143,7 +143,7 @@ function removeFromLocalStorage(id) {
 }
 
 
-//LS Update
+//LS Update 
 function updateTaskStatus(id) {
     let jobs = JSON.parse(localStorage.getItem('list')) || [];
     const jobIndex = jobs.findIndex(job => job.id === id)
@@ -152,8 +152,3 @@ function updateTaskStatus(id) {
         localStorage.setItem('list', JSON.stringify(jobs));
     }
 }
-
-
-//Çalışırken Öğrendiklerim
-//1-event çağırırken örneğin formHandler'ı () ile çağırırsak sayfa açılır açılmaz çalışır.
-//2-trim() baştaki ve sondaki boş karakterleri siler.
